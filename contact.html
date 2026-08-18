@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Book & Visit · Hotel Itaewon Dharan</title>
+  <meta name="description" content="Book a room, table, or the hall at Hotel Itaewon, 9 Bagaincha Line, Dharan-9. Call 025-579482 or WhatsApp 9817315737." />
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header solid" id="header">
+    <div class="wrap">
+      <a class="logo" href="index.html" aria-label="Hotel Itaewon">
+        <img src="images/logo-light.png" alt="Hotel Itaewon — होटल इथेवन" />
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span></button>
+      <nav class="nav">
+        <a href="stay.html">Stay</a>
+        <a href="dine.html">Kitchen</a>
+        <a href="events.html">Events</a>
+        <a class="active" href="contact.html">Visit</a>
+        <a class="btn btn-gold" href="contact.html#book">Book now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="book-first" id="book">
+      <div class="wrap">
+        <p class="kicker">Book</p>
+        <h1>Send a request</h1>
+        <p class="lede" style="margin:12px 0 28px">Tell us the night. We’ll open WhatsApp with your details — then you can send it.</p>
+        <form id="book-form">
+          <div class="field">
+            <label for="kind">I want to book</label>
+            <select id="kind" name="kind">
+              <option>Room</option>
+              <option>Single</option>
+              <option>Comfort Twin</option>
+              <option>Deluxe Twin</option>
+              <option>Table</option>
+              <option>Event / Hall</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" required placeholder="Your name" />
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" required placeholder="98xxxxxxxx" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="guests">Guests</label>
+              <select id="guests" name="guests">
+                <option>1</option>
+                <option selected>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5–8</option>
+                <option>9–20</option>
+                <option>20+</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="date">Date</label>
+              <input id="date" name="date" type="date" required />
+            </div>
+          </div>
+          <div class="field">
+            <label for="time">Time</label>
+            <input id="time" name="time" type="time" value="18:00" />
+          </div>
+          <div class="field">
+            <label for="note">Note</label>
+            <textarea id="note" name="note" rows="3" placeholder="Late check-in, birthday cake, vegetarian, extra bed…"></textarea>
+          </div>
+          <button class="btn btn-gold" type="submit">Continue on WhatsApp</button>
+          <p class="form-note">Opens WhatsApp to 9817315737 with this request. You can also call 025-579482.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="navy">
+      <div class="wrap visit">
+        <div class="facts">
+          <p class="kicker">Hotel Itaewon</p>
+          <h2>Bagaicha Line, Dharan-9</h2>
+          <div class="fact">
+            <h3>Address</h3>
+            <p>9 Bagaincha Line<br />Bagaicha Chowk, Dharan 56700<br />Koshi Province, Nepal<br />Plus code R75M+V2</p>
+            <p><a href="https://www.google.com/maps/dir/?api=1&destination=26.8096966,87.2825883" target="_blank" rel="noopener">Get directions</a></p>
+          </div>
+          <div class="fact">
+            <h3>Call / WhatsApp</h3>
+            <p><a href="tel:+97725579482">025-579482</a><br />
+            <a href="https://wa.me/9779817315737" target="_blank">9817315737</a></p>
+          </div>
+        </div>
+        <div class="facts">
+          <div class="fact">
+            <h3>Email</h3>
+            <p><a href="mailto:hotelitaewonofficial@gmail.com">hotelitaewonofficial@gmail.com</a></p>
+          </div>
+          <div class="fact">
+            <h3>Hours</h3>
+            <p>Always open<br />Restaurant · Bar · Rooms<br />Dine-in, takeaway, delivery</p>
+          </div>
+          <div class="fact">
+            <h3>Social</h3>
+            <p>
+              <a href="https://www.instagram.com/hotelitaewon/" target="_blank" rel="noopener">@hotelitaewon</a><br />
+              <a href="https://www.facebook.com/hotelitaewon/" target="_blank" rel="noopener">facebook.com/hotelitaewon</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="wrap">
+        <div class="map-wrap">
+          <iframe title="Map of Hotel Itaewon, Dharan" src="https://www.openstreetmap.org/export/embed.html?bbox=87.275%2C26.805%2C87.290%2C26.815&amp;layer=mapnik&amp;marker=26.8096966%2C87.2825883" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div><a class="logo" href="index.html" aria-label="Hotel Itaewon"><img src="images/logo-light.png" alt="Hotel Itaewon — होटल इथेवन" /></a></div>
+      <div><h4>Visit</h4><p>9 Bagaincha Line<br />Dharan-9, 56700</p></div>
+      <div><h4>Book</h4><p><a href="tel:+97725579482">025-579482</a><br /><a href="https://wa.me/9779817315737" target="_blank">9817315737</a></p></div>
+      <div><h4>Hours</h4><p>Always open</p></div>
+    </div>
+    <div class="wrap legal"><span>© <span id="year">2026</span> Hotel Itaewon</span><span>Bagaicha Line, Dharan</span></div>
+  </footer>
+  <a class="wa" href="https://wa.me/9779817315737" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M20 11.5A8.5 8.5 0 0 1 7.3 18.4L4 19.5l1.2-3.1A8.5 8.5 0 1 1 20 11.5zm-8.5 7.1c1.4 0 2.7-.4 3.8-1l.3-.2 2.2.6-.6-2.1.2-.3a6.5 6.5 0 1 0-5.9 3zm3.6-4.9c-.2-.1-1.2-.6-1.4-.7-.2-.1-.3-.1-.5.1l-.4.5c-.1.2-.3.2-.5.1a5.3 5.3 0 0 1-2.6-2.3c-.2-.3 0-.4.1-.5l.3-.4.1-.3c0-.1 0-.3 0-.4l-.7-1.6c-.2-.4-.4-.4-.5-.4h-.4c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.3c.1.2 1.6 2.5 3.9 3.4 1.4.6 1.7.5 2.3.4.4 0 1.2-.5 1.3-1 .2-.5.2-.9.1-1 0-.1-.2-.1-.4-.2z"/></svg></a>
+  <script src="js/main.js"></script>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const kind = params.get("kind");
+    if (kind) {
+      const select = document.getElementById("kind");
+      if (select) {
+        const match = [...select.options].find((o) => o.value === kind);
+        if (match) select.value = kind;
+        else {
+          const opt = document.createElement("option");
+          opt.value = kind;
+          opt.textContent = kind;
+          opt.selected = true;
+          select.appendChild(opt);
+        }
+      }
+    }
+  </script>
+</body>
+</html>
