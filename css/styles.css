@@ -771,3 +771,9 @@ form {
   section { padding: 72px 0; }
   .hero { align-items: end; }
 }
+#in-combo, #in-soup, #in-platter, #in-sizzler, #in-rice, #in-fast, #in-snacks-veg, #in-snacks-nv, #in-curry, #in-thali, #in-bread, #in-sekuwa, #bbq, #snacks, #plates, #rice, #soup, #hotpot-kr, #bokkeumbap, #bibimbap, #Noodles, #ramen, #kimbap, #platters, #sides, #special {
+  scroll-margin-top:88px;
+}
+.fast-food-subtitle{
+  color: var(--gold-2);
+}
